@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "antastic",
+	"version": "${version}",
+	"name": "Antastic",
+	"description": "Ants!",
+	"authors": [
+		"2ndDerivative",
+		"Sivallia"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/antastic/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"mod.antastic.Antastic"
+		],
+		"client": [
+			"mod.antastic.AntasticClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.3",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
